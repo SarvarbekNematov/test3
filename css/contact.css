@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_block {
+    display: flex;
+    align-items: center;
+    width: 380px;
+}
+
+.header_img {
+    width: 159.947px;
+    height: 40px;
+}
+
+.header_list {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+.header_item {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.main_header {
+    background-color: #014E56;
+    padding-top: 73px;
+}
+
+.header_btn {
+    text-align: center;
+    color: #FFF;
+    padding-top: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    display: block;
+}
+
+/* CONTACT */
+
+.contact
+{
+    background-color: #014E56;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url(../img/contact_bg.svg),url(../img/contact_bg2.svg);
+    background-repeat: no-repeat;
+    background-position: left 128px , right bottom;
+}
+.contact_flex  
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_block
+{
+    width: 540px;
+}
+
+.contact_item {
+    width: 540px;
+    height: 72px;
+    padding-left: 95px;
+    margin-top: 32px;
+}
+
+.contact_sub_title {
+    color: #F67E7E;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+.contact_item_title
+{
+    padding-top: 22px;
+    color: #FFF;    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+}
+
+.contact_title
+{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px; 
+}
+
+.contact_item:nth-child(1) {
+    background-image: url('../img/manage_bg1.svg');
+    background-repeat: no-repeat;
+}
+
+.contact_item:nth-child(2) {
+    background-image: url('../img/manage_bg2.svg');
+    background-repeat: no-repeat;
+    margin-top: 32px;
+}
+
+.contact_item:nth-child(3) {
+    background-image: url('../img/manage_bg3.svg');
+    background-repeat: no-repeat;
+    margin-top: 32px;
+}
+
+.contact_textarea,
+.contact_input::placeholder
+{
+    color: #99B8BB;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.115px;
+}
+
+.contact_textarea,
+.contact_input
+{
+    padding: 0 17px 14px 14px;
+    width: 100%;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; 
+    letter-spacing: -0.115px;
+    background-color: #014E56;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 24px;
+    resize: none;
+    outline: none;
+}
+
+
+
+.contact_textarea
+{
+    padding-bottom: 58px;
+}
+.contact_form
+{
+    width: 540px;
+}
+
+.contact_btn
+{
+    color: #004047;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px; 
+padding: 9px 32px;
+border-radius: 24px;
+border: 2px solid #FFF;
+background-color: #FFF;
+}
+
+/* Footer */
+
+.footer
+{
+    background-color: #002529;
+    padding: 48px 0;
+}
+
+.footer_container
+{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_flex
+{
+    display: flex;
+    justify-content: space-between;
+    width: 456px;
+}
+
+.footer_logo
+{
+    width: 160px;
+}
+
+.footer_list
+{
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.footer_item
+{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+.footer_text_list
+{
+    width: 171px;
+
+}
+
+.footer_text
+{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px; 
+}
+
+.footer_icons
+{
+    text-align: right;
+    width: 255px;
+}
+
+.footer_info
+{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px; 
+    margin-top: 51px;
+}
